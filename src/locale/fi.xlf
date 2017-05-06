@@ -1,0 +1,847 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1172ffb28e42ff5ae0d36af63448744a3af23d41" datatype="html" approved="yes">
+        <source>Classes</source> <target state="translated">Luokat</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/class/class.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3d444955f1f1550dd496c724418e5ba2acf7bd4" datatype="html" approved="yes">
+        <source>Disciple</source> <target state="translated">Opetuslapsi</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/class/class.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35e86d6fd16e1b4866b1c3cac9b31cbe66c1fb8d" datatype="html" approved="yes">
+        <source>Knight</source> <target state="translated">Ritari</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/class/class.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html" approved="yes">
+        <source>Home</source> <target state="translated">Etusivu</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/classes/classes.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/items/items.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/character/character.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="466caa06df1f04b89c5d1f4f4531ac07709b5c5c" datatype="html" approved="yes">
+        <source>Armor</source> <target state="translated">Haarniska</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/items/items.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b85f9e178352451503a6842e03a6eeb76cd983b5" datatype="html" approved="yes">
+        <source>One Hand</source> <target state="translated">Yhdenkäden</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/items/items.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4e4731bd58ee039d839ec30a2063e0d8aae77aaf" datatype="html" approved="yes">
+        <source>Two Hand</source> <target state="translated">Kahdenkäden</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/items/items.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c2a9de3714f5767b174d0424bc8abe2dc37acc41" datatype="html" approved="yes">
+        <source>Other</source> <target state="translated">Muu</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/items/items.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6ffd71eda225c5d971b1fef21df03c06b41ba8a3" datatype="html" approved="yes">
+        <source>Items</source> <target state="translated">Esineet</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/worn/worn.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2ede4e40ef6d58095d54e8292df20cc9d5205883" datatype="html" approved="yes">
+        <source>Armor</source> <target state="translated">Haarniska</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/worn/worn.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7790a1b61b2ba34c97e3a25f219831166b29e7d2" datatype="html" approved="yes">
+        <source>One Hand</source> <target state="translated">Yhdenkäden</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/worn/worn.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="60cde782deb36ec47955be4e54a3df76b1c0c097" datatype="html" approved="yes">
+        <source>Two Hand</source> <target state="translated">Kahdenkäden</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/worn/worn.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a849807dcf46c32548a8746b1e592fc342ad16cf" datatype="html" approved="yes">
+        <source>Other</source> <target state="translated">Muu</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/worn/worn.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="256e308cd7b3cefebeece342aab3afddbdf744fa" datatype="html" approved="yes">
+        <source>Armor of Faith</source> <target state="translated">Uskon Haarniska</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cdb6c416d657577139a6331bc4ad9e5556194dc0" datatype="html" approved="yes">
+        <source>Each time you use Prayer of Healing on a hero, that hero adds 1 additional brown die to his defense pool until the start of your next turn.<x id="LINE_BREAK" ctype="lb"/> Place a hero token belonging to that hero on this card as a reminder. </source> <target state="translated">Jokainen kerta kun käytät Parantavaa Rukousta sankariin, sankari saa 1 ruskean nopan lisää hänen puolustukseen sinun seuraavaan vuoron alkuun asti. Muistaaksesi tämän laita hänen sankarimerkki tämän kortin päälle.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="67bb8ca27d8910b858d4f26909c3ae3317da0ab4" datatype="html" approved="yes">
+        <source>Blessed Strike</source> <target state="translated">Siunattu Isku</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0ab9cb9f24810353b14fa59e3aeaccdc8a477d0d" datatype="html" approved="yes">
+        <source>∞: Perform an attack with a Melee weapon. If you deal at least 1 ≥ (after rolling defense dice), you and 1 hero of your choice adjacent to you each recover 2 ≥.</source> <target state="translated">∞: Hyökkää lähitaisteluaseella. Jos teet edes 1 ≥ (puolustus noppien heiton jälkeen), sinä ja 1 vieressäsi oleva sankari paranee 2 ≥.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cf4b98e49b73c9ac2b28799c59d838e71804fa48" datatype="html" approved="yes">
+        <source>Cleansing Touch</source> <target state="translated">Puhdistava Kosketus</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e1007ced12fdd916fa6ef75022083ecf0df75fb" datatype="html" approved="yes">
+        <source>Each time you use Prayer of Healing on a hero, that hero may also discard 1 of his Condition cards.</source> <target state="translated">Jokainen kerta kun käytät Parantavaa Rukousta sankariin, sankari voi myös poistaa 1 hänen Olotilakorteista.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="775f86f0bcad9413a58a88ecb97884e8d67de9f3" datatype="html" approved="yes">
+        <source>Divine Fury</source> <target state="translated">Pyhä Raivo</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="877b20c3f031797546c984b4f8c26207ed4b657f" datatype="html" approved="yes">
+        <source>Each time you use Prayer of Healing on a hero, that hero adds 1 additional yellow power die to his attack pool on his next attack this round. Place a hero token belonging to that hero on this card as a reminder.</source> <target state="translated">Jokainen kerta kun käytät Parantavaa Rukousta sankariin, sankari saa 1 keltaisen voima nopan lisää hänen seuraavaan hyökkäykseen. Muistaaksesi tämän laita hänen sankarimerkki tämän kortin päälle.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d65a6c9b82eb94060a8947ad9fd07df61c4c0da8" datatype="html" approved="yes">
+        <source>Holy Power</source> <target state="translated">Pyhä Voima</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0d65cb252ad016f76cb71ede73b0423a68228a1a" datatype="html" approved="yes">
+        <source>Your Prayer of Healing may now affect 2 different heroes. If you roll a ± on the red power die when using Prayer of Healing, both heroes recover 1 ∏.</source> <target state="translated">Sinun Parantava Rukous voi nyt vaikuttaa 2 sankariin. Jos heität ± punaisella voima nopalla, kun käytät Parantavaa Rukousta, kumpikin sankari paranee 1 ∏.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94d831ab9aa626842e5b4a81d29d8c974ce9d652" datatype="html" approved="yes">
+        <source>Prayer of Healing</source> <target state="translated">Parantava Rukous</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c0f24f1e3782860aa7b077cbb27966cea411d568" datatype="html" approved="yes">
+        <source>Exhaust this card during your turn and choose yourself or an adjacent hero. Roll 1 red power die. The chosen hero recovers ≥ equal to the ≥ rolled.</source> <target state="translated">Kuluta tämä kortti vuorollasi ja valitse itsesi tai vieressäsi oleva sankari. Heitä 1 punainen voimanoppa. Valittu sankari paranee ≥ heitettyjen ≥ verran.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e58c65bc6bffc46b091a845667d554958eee16aa" datatype="html" approved="yes">
+        <source>Prayer of Peace</source> <target state="translated">Rauhan Rukous</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="17b56e6cfcbfd9ecc279f6789b9c91df7ff96e2e" datatype="html" approved="yes">
+        <source>∞: Exhaust this card.<x id="LINE_BREAK" ctype="lb"/> While this card is exhausted, monsters cannot perform an attack while adjacent to you. </source> <target state="translated">∞: Kuluta tämä kortti. Niin kauan kuin tämä kortti on kulutettuna, hirviöt eivät voi hyökätä, kun he ovat vieressäsi.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c8fd2908e3256cf7e421c1785cf1c57d36c3e3a" datatype="html" approved="yes">
+        <source>Radiant Light</source> <target state="translated">Säteilevä Valo</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9703e6d9b41ff6e7f50cd4fa19216fe09b0509de" datatype="html" approved="yes">
+        <source>∞: Roll 1 red power die. Each hero in your line of sight (including yourself) recovers the amount of ≥ rolled. Each monster in your line of sight suffers the amount of ≥ rolled.</source> <target state="translated">∞: Heitä 1 punainen voima noppa. Jokainen sankari johon sinulla on näköyhteys (myös sinä itse) paranee heitettyjen ≥ verran. Jokainen hirviö näkökentässäsi kärsii heitettyjen ≥ verran.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fec9a3768fe0cb0001068cd112c14bb9d2dd295d" datatype="html" approved="yes">
+        <source>Time of Need</source> <target state="translated">Tarveaika</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f1f6f9a12569ff69c548a9c73f7257315ddc1f08" datatype="html" approved="yes">
+        <source>∞: You receive 2 movement points and recover 2 ≥.</source> <target state="translated">∞: Saat 2 liikkumis pistettä ja 2 ≥.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="981b7d780cc03847140e7572d45525e829b05bba" datatype="html" approved="yes">
+        <source>Advance</source> <target state="translated">Etene</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55ade47de04d062e6a3b32b08bae0ff40606aea6" datatype="html" approved="yes">
+        <source>After defeating a monster with an attack using a Melee weapon, exhaust this card to move up to you Speed and perform an additional attack.</source> <target state="translated">Voitettuasi hirviö lähitaisteluaseella, kuluta tämä kortti ja liiku nopeutesi verran ja tee uusi hyökkäys.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f064b5ba6c064e8a38a60fbd9f71b52c514c3aa" datatype="html" approved="yes">
+        <source>Challenge</source> <target state="translated">Haasta</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cf41b0349e2472dd495e25340ccf964261c8446f" datatype="html" approved="yes">
+        <source>Exhaust this card to choose a monster in you line of sight and place your hero token on it. While this card is exhausted, each attack performed by you or the monster, when targeting each other, gains +1 ≥.</source> <target state="translated">Kuluta tämä kortti ja valitse hirviö johon sinulla on näköyhteys ja laita sankarimerkkisi sille. Niin kauan kuin tämä korti on kulutettuna, jokainen toisiinne kohdistuva hyökkäys, jonka sinä tai valittu hirviö suorittaa, saa +1 ≥.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="15e4c814253e95c9e6c55f528ac7f31f7faf55c0" datatype="html" approved="yes">
+        <source>Defend</source> <target state="translated">Puolusta</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c2f2abb2fc89943a1eb68aefee68b14c6673f33" datatype="html" approved="yes">
+        <source>When a hero adjacent to you is targeted by an attack, use this card to instead declare yourself as the target of the attack. Range and line of sight are still measured to the targeted hero's space.</source> <target state="translated">Kun hyökkäyksen kohteena oleva sankari on vieressäsi, käytä tätä korttia ilmoittaaksesi itsesi, sankarin sijasta, hyökkäyksen kohteeksi. Etäisyys ja näköyhteys mitataan edelleen hyökkäyksen kohteena ollesta sankarista.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c66b56c8a8be527a57933e513850591114ac92b2" datatype="html" approved="yes">
+        <source>Defense Training</source> <target state="translated">Puolustuskoulutus</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c52ec78bc215002208c5e92af68b1349c16a9f7" datatype="html" approved="yes">
+        <source>As long as you have a Shield equipped, add 1 additional brown die to your defense pool (even if this card is exhausted). When you would exhaust your equipped Shield (such as to use the Shield's ability), you may exhaust this card instead.</source> <target state="translated">Niin kauan kuin sinulla on suoja varustettuna, lisää 1 ruskea noppa puolustukseesi (vaikka tämä kortti olisi kulutettuna). Kun kuluttaisit varustetun suojasi (kuten jonkin suojan kyvyistä), voit kuluttaa kortin sen sijaan.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc2cf20db7c84de5077f15159e5499b9664d3aff" datatype="html" approved="yes">
+        <source>Guard</source> <target state="translated">Vartioi</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5b66f820b06a0a026ff0e156d0502f01b11c873" datatype="html" approved="yes">
+        <source>When a monster moves into an empty space adjacent to you, exhaust this card to interrupt that monster’s activation and perform an attack with a Melee weapon. After this attack is resolved, if the monster was not defeated, it may continue its activation.</source> <target state="translated">Kun hirviö liikkuu tyhjään ruuttuun vieressäsi, kuluta tämä kortti keskeyttääksesi hirviön vuoro ja suorita hyökkäys lähitaisteluaseella. Kun tämä hyökkäys on ratkaistu, jos hirviötä ei voiteta, se voi jatkaa vuoroaan.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="72f34e2f8616baf2b651de359ae3d162b433ce40" datatype="html" approved="yes">
+        <source>Inspiration</source> <target state="translated">Inspiraatio</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fa3dc8752ddbb30aeba3e4018df4fdea3d810396" datatype="html" approved="yes">
+        <source>At the start of your turn. if you are adjacent to at least one other hero, you and each other hero adjacent to your recover 1 ∏.</source> <target state="translated">Sinun vuorosi alussa. Jos olet vähintään yhden muun sankarin vieressä, sinä ja toiset sankarit, toipuvat 1 ∏.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b3e68d5827e80cc75dd57114ca588f70731eeab1" datatype="html" approved="yes">
+        <source>Oath of Honor</source> <target state="translated">Kunnian Vala</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ccaa43360c3d57abb3d6d5434c8bd5651bc66b3" datatype="html" approved="yes">
+        <source>∞: Choose another hero within 3 spaces of you who has a monster adjacent to him. Place your hero figure in the closest empty space adjacent to the monster and perform an attack with a Melee weapon against that monster.</source> <target state="translated">∞: Valitse toinen sankari 3 enintään kolmen ruudun päästä sinusta ja jonka vieressä on hirviö. Siirrä sankarisi lähimpään tyhjään ruutuun hirviön vieressä ja tee hyökkäys lähitaisteluaseella tätä hirviötä vastaan.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e9bb870f98f64c703dc926678d3a58faefb935ef" datatype="html" approved="yes">
+        <source>Shield Slam</source> <target state="translated">Suoja Isku</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49e4825af9b250a23a2d5065988d324a8595ab5f" datatype="html" approved="yes">
+        <source>While you have a Shield equipped (even if exhausted), each of your attacks with a Melee weapon gain:<x id="LINE_BREAK" ctype="lb"/> ±: Choose a monster adjacent to you. That monster is Stunned. </source> <target state="translated">Kun sinulla on suoja varustettuna (vaikka se olisikin kulutettuna), jokainen hyökkäys saa: ±: Valitse vieressäsi oleva hirviö. Se hirviö pökertyy.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="905ec9f7a57fb58c1f0889c9a43a6b1a2ed1af06" datatype="html" approved="yes">
+        <source>Stalwart</source> <target state="translated">Roteva</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c23deabd36b345d35d0c51eeb14b8ff767763373" datatype="html" approved="yes">
+        <source>You gain +2 Health. When you are defeated, you may immediatly move up to your Speed and perform an attack with a Melee weapon. After the attack is resolved, you are knocked out.</source> <target state="translated">Saat +2 elämää. Kun sinut on voitettu, voit liikkua välittömästi nopeutesi verran ja suorittaa hyökkäys lähitaisteluaseella. Kun hyökkäys on ratkaistu, olet edelleen voitettuna.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d3da04d0da9bf32f379f155dc73c82912f1edcd" datatype="html" approved="yes">
+        <source>Leather Armor</source> <target state="translated">Nahka haarniska</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2fbef2ad687bc170c2f696816b1549e71c421653" datatype="html" approved="yes">
+        <source>You gain +1 Health.</source> <target state="translated">Saat +1 Elämää.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="45769e2720b5442dd65ecc51f0ec0f45c413e23d" datatype="html" approved="yes">
+        <source>Chainmail</source> <target state="translated">Rengashaarniska</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">166</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="000e6cfa0b2192eae19b0422eea5b02929229552" datatype="html" approved="yes">
+        <source>You cannot equip Runes.</source> <target state="translated">Et voi käyttää Riimuja</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">317</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="315cd15695277f7dfcf7337373e256afe4e2e887" datatype="html" approved="yes">
+        <source>Your Speed is reduced to 4 and cannot be increased above 4.</source> <target state="translated">Sinun nopeutesi laskee 4:ään eikä voi nousta yli 4:än.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="53b16bd8af59931f3db0fab62b55c3bdba6064c8" datatype="html" approved="yes">
+        <source>Heavy Cloak</source> <target state="translated">Raskas Viitta</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5e56c4330866c66255615834bf9ee0e9ff64dea3" datatype="html" approved="yes">
+        <source>Exhaust this card after the dice are rolled to cancel 1 ± on an attack that targets you.</source> <target state="translated">Kuluta tämä kortti noppien heiton jälkeen peruaksesi 1 ± hyökkäyksestä joka kohdistuu sinuun.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b99f2dbaaed87f7ae7830b1d1ff8867cc8081c83" datatype="html" approved="yes">
+        <source>Light Hammer</source> <target state="translated">Kevyt Vasara</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="251f395a01bf195b52e5f7e53193aaefbcd8ada1" datatype="html" approved="yes">
+        <source>±: +2 ≥</source> <target state="translated">±: +2 ≥</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">179</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">203</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">215</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">226</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">237</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">291</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">302</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">307</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">308</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7cb64e2f4e49958aaac4d0e106e4693d6a9a4cd9" datatype="html" approved="yes">
+        <source>±: Stun</source> <target state="translated">±: Pökerryttä</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">180</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">214</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">273</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e203306d9a47dc3916b9ba555cab7ca7ed214775" datatype="html" approved="yes">
+        <source>Sling</source> <target state="translated">Ritsa</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">183</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8acf1953bdf78894682c3eba3d71300abc34cff8" datatype="html" approved="yes">
+        <source>±: +1 Range, +1 ≥</source> <target state="translated">±: +1 Etäisyyteen, +1 ≥</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">271</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c018ecbff8c20d8775ebf244b15b38118d83dfe1" datatype="html" approved="yes">
+        <source>Iron Shield</source> <target state="translated">Rautainen Kilpi</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">188</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a35a8e2e574bd4fea3f0d08d09550e330aa62b86" datatype="html" approved="yes">
+        <source>Exhaust this card after rolling defense dice to either reroll one die or add 1 Shield to the results.</source> <target state="translated">Kuluta tämä kortti puolustusnoppien heiton jälkeen, joko heittääksesi uudestaan yhtä noppaa tai lisätäksesi 1 kilven tulokseen.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="32fc7d4babc43cdd289f374ab2a5c52c4a938da9" datatype="html" approved="yes">
+        <source>Iron Spear</source> <target state="translated">Rautanen Keihäs</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11dd46826c58e9e1b851b0ecef98c622d2d12656" datatype="html" approved="yes">
+        <source>Reach</source> <target state="translated">Ulottuva</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="215433621371e2ba8f1d1fcc76d3c0ce13d72ab5" datatype="html" approved="yes">
+        <source>±: +1 ≥</source> <target state="translated">±: +1 ≥</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">220</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">281</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">324</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="39a269322ea67dfceafe6272a2fbaaa30e29d97f" datatype="html" approved="yes">
+        <source>±: Pierce 1</source> <target state="translated">±: Lävistää 1</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">198</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">238</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="22d5c0176ae92044016e938e2dde650f0e2ac4fc" datatype="html" approved="yes">
+        <source>Crossbow</source> <target state="translated">Jousipyssy</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">201</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6baf75cb5e607860469884311e96e6d9e8465159" datatype="html" approved="yes">
+        <source>Pierce 1</source> <target state="translated">Lävistää 1</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">202</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">219</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">236</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">265</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">300</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f9fc196e15d2a219606c72593f93fca71f7c512c" datatype="html" approved="yes">
+        <source>±: +2 ≥ and move the target 1 space</source> <target state="translated">±: +2 ≥ ja liikuta kohdetta 1 ruutu</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">204</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4732fc2c326580884213b62e512ae575bd193262" datatype="html" approved="yes">
+        <source>Steel Broadsword</source> <target state="translated">Teräksinen Miekka</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0ec96a443d53edce00d8da157051258bf83c2aeb" datatype="html" approved="yes">
+        <source>Once per attack roll, you may reroll 1 red power die.</source> <target state="translated">Kerran jokaisessa hyökkäys heitossa voit heittää uudelleen 1:tä punaista voima noppa.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="663d360c647be125791ae8db40ec092b64e23214" datatype="html" approved="yes">
+        <source>Sunburst</source> <target state="translated">Auringonpurkaus</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">213</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2ef78e71414286a704aa205747191b9ce4a9528a" datatype="html" approved="yes">
+        <source>Immolation</source> <target state="translated">Polttaja</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">218</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">224</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="78f87245d7a3d1c21a5059a7a01f295ab022fc31" datatype="html" approved="yes">
+        <source>±: +1 Range</source> <target state="translated">±: +1 Etäisyyteen</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">221</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">232</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e3ebeb14d188a110ac66071af66c29b0deb47cb5" datatype="html" approved="yes">
+        <source>Adjacent figures do not block your line of sight.</source> <target state="translated">Vieressäsi olevat hahmot eivät estä näköyhteyttäsi.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="07485c2907cac6e8c6388691ca14a4deaf887275" datatype="html" approved="yes">
+        <source>±: +2 Range</source> <target state="translated">±: +2 Etäisyyteen</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">227</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">301</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3b9c2967b1b5521b76f756bd6a37dec8807100ee" datatype="html" approved="yes">
+        <source>Magic Staff</source> <target state="translated">Maaginen Sauva</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af73642e6388fe3430b99fe323eadd952c4f0a92" datatype="html" approved="yes">
+        <source>±: Deal 1 ≥ to another monster within 3 spaces of the target</source> <target state="translated">±: Aiheuta 1 ≥ toiselle hirviölle 3:n ruudun päässä kohteesta</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">231</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49625d5f0fa40c30eb46313d271e0941630552be" datatype="html" approved="yes">
+        <source>Iron Battleaxe</source> <target state="translated">Rautanen Taistelukirves</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">235</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="845fae1e29a8275b4578187972fbe5ee4b8938c9" datatype="html" approved="yes">
+        <source>Scorpion Helm</source> <target state="translated">Skorppioni Kypärä</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">242</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="285cff58e3adbb75ce252d9efdc8db72b59b42c6" datatype="html" approved="yes">
+        <source>Your Ranged attacks gain +1 Range.</source> <target state="translated">saat +1 etäisyyteen.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">243</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="920669202d46c995f75f1416c821ecae1f5fafef" datatype="html" approved="yes">
+        <source>Limit 1 Helmet equipped at a time.</source> <target state="translated">Rajoitus 1 Kypärä voi olla varustettuna saman aikaisesti.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">244</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3db6f950baa634cf92695482a0257dbd65373771" datatype="html" approved="yes">
+        <source>Lucky Charm</source> <target state="translated">Onnenamuletti</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">247</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48eefa486c7c78258c480609dfa2e59b2e2cbece" datatype="html" approved="yes">
+        <source>Exhaust this card to reroll an attribute test. You must keep the new results.</source> <target state="translated">Kuluta tämä kortti ja heitä uudestaan kyky testissä. Sinun pitää hyväksyä uusi tulos.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">248</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c8c27b956e71d12e606f869b4304c67270ca6a36" datatype="html" approved="yes">
+        <source>Mana Weave</source> <target state="translated">Taikavoima Aalto</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">251</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">255</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="50a5341a6fcc62d1a058dbdcfeeca7c2c1457dec" datatype="html" approved="yes">
+        <source>After rolling attack dice, exhaust this card to add 1 ± to the results.</source> <target state="translated">Hyökkäys noppien heiton jälkeen, kuluta tämä kortti lisätäksesi 1 ± tulokseen</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">252</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ebe49be8251fa77db691d95e960aef3077d9d7c8" datatype="html" approved="yes">
+        <source>You gain +1 Stamina.</source> <target state="translated">Saat +1 Kestävyyttä.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">256</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1538a0c4476f63ba5067c95ead4784551e9fce05" datatype="html" approved="yes">
+        <source>Demonhide Leather</source> <target state="translated">Demonin Nahka</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">260</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f839c7b064acd4143b9d3c617a674d9e713684b8" datatype="html" approved="yes">
+        <source>When you perform 2 move actions on your turn, suffer 1 ∏ at the end of your turn.</source> <target state="translated">Kun teet 2 liikkumis toimintoa, kärsit 1 ∏ vuorosi lopussa.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">261</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="be228fb4a6a9382a1745948b5e00a2d3afa94703" datatype="html" approved="yes">
+        <source>Dragontooth Hammer</source> <target state="translated">Lohikäärmehammas Vasara</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">264</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d2b12f17285e8a326ccb779e9f211d1c7bceb9e0" datatype="html" approved="yes">
+        <source>If your other hand is empty, your attacks gain +1 ≥.</source> <target state="translated">Jos toinen kätesi on tyhjä, hyökkäyksesi saavat +1 ≥.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">266</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8064eb340241e2d0a093de3b88f42d2ea2486e6" datatype="html" approved="yes">
+        <source>±: Pierce 2</source> <target state="translated">±: Lävistää 2</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">267</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">323</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="df8be694a5a0021976b6a6ca5873cb52830239e3" datatype="html" approved="yes">
+        <source>Dwarven Firebomb</source> <target state="translated">Kääpiöiden Tulipommi</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">270</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c2de880cb2ade7e8103e54b6975d4ddfcb3d7cf1" datatype="html" approved="yes">
+        <source>±: Blast</source> <target state="translated">±: Räjähdys</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">272</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">306</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ef17c0ecf9371027a53c3fac3974eea52c4ddbb6" datatype="html" approved="yes">
+        <source>Elven Cloak</source> <target state="translated">Haltiaviitta</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">276</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="33a9442643f8edb67225cd0a272d943955e289ef" datatype="html" approved="yes">
+        <source>Exhaust this card after rolling defense dice to replace the results with a number of ≤ equal to your µ</source> <target state="translated">Kuluta tämä kortti puolustusnoppien heiton jälkeen ja korvaa tulokset numeroilla ≤:ä jotka vastaa sinun µ</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">277</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ccd29765cc0a37473102298377cf24a63138a7b" datatype="html" approved="yes">
+        <source>Grinding Axe</source> <target state="translated">Lohduton Kirves</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">280</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dbd4b37f21f13cd3d0f4b3b65d5fcbb1a017914d" datatype="html" approved="yes">
+        <source>±±: +5 ≥</source> <target state="translated">±±: +5 ≥</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">282</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0bbb3da1e6a7945a47a76099ae201282d983be11" datatype="html" approved="yes">
+        <source>Heavy Steel Shield</source> <target state="translated">Raskas Teräskilpi</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">285</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="782d9d150e9a99d05a73dc57de39fc141415e34e" datatype="html" approved="yes">
+        <source>Exhaust this card after rolling defense dice to reroll 1 defence die and add 1 ≤ to the results.</source> <target state="translated">Kuluta tämä kortti puolustusnoppien heiton jälkeen, heittääksesi uudestaan 1 pulustus noppaa ja lisätäksesi 1 ≤ tulokseen.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">286</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c72140b64d0559304511453e5bf62e1a33f3402c" datatype="html" approved="yes">
+        <source>Ice Storm</source> <target state="translated">Jää Myrsky</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">289</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e34de795dba623a9f445c411ab7b5116b39394f" datatype="html" approved="yes">
+        <source>±: Immobilize</source> <target state="translated">±: Tee liikunta kyvyttömäksi</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">290</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e6d0bc8916cffeeada7b39a2dda5c4a0dbfcfad" datatype="html" approved="yes">
+        <source>Iron-Bound Ring</source> <target state="translated">Raudoitettu Sormus</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">294</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9691d4b53c57634271f4d64d31b4b27bbb830cf0" datatype="html" approved="yes">
+        <source>You gain +2 Health.</source> <target state="translated">Saat +2 Elämää.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="73b287ebf8ca73ebbc1203a50ab9712490cbdb01" datatype="html" approved="yes">
+        <source>If you roll one or more blanks when rolling defence dice, add 1 ≤ to your results.</source> <target state="translated">Jos heität yhden tai useamman tyhjän kun heität puolustusnoppia, lisää 1 ≤ tulokseesi.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">296</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="492ba0a803622aef20e1908bb5075d2a11a541f2" datatype="html" approved="yes">
+        <source>Latari Longbow</source> <target state="translated">Latari Pitkäjouse</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">299</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">305</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68e554230aca9c75a9a49cca2402ab1fe126da33" datatype="html" approved="yes">
+        <source>Mace of Kellos</source> <target state="translated">Kelloksen Nuija</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">311</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c93778c29869831d5e043f06506f2ede6d9f44e2" datatype="html" approved="yes">
+        <source>±: Each monster adjacent to you suffers 1 ≥</source> <target state="translated">±: Jokainen hirviö viereälläsi kärsii 1 ≥</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">312</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5274f616a6b6cda9e2d2293e069109cee3748b93" datatype="html" approved="yes">
+        <source>±: Recover +1 ≥</source> <target state="translated">±: Toivu +1 ≥</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">313</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cccf5a84c3ce36c9dc8bf12094825d1d94bb9b11" datatype="html" approved="yes">
+        <source>Platemail</source> <target state="translated">Levyhaarniska</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">316</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0e594559239c39e9937afa3ff692730371cea234" datatype="html" approved="yes">
+        <source>Your Speed is reduced to 3 and cannot be increased above 3.</source> <target state="translated">Sinun nopeutesi laskee 3:een eikä voi nousta yli 3:en.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">318</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b68b009222e35bb44c6573c8cdf850654b7b3f5" datatype="html" approved="yes">
+        <source>Steel Greatsword</source> <target state="translated">Teräksinen Pitkämiekka</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">321</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c24399e3c40bd27fb407c3af65e2755c974ea084" datatype="html" approved="yes">
+        <source>Once per attack, you may reroll 1 power die.</source> <target state="translated">Kerran jokaisessa hyökkäys heitossa voit heittää uudelleen 1:tä voima noppa.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">322</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="810f11cddd6bec898bf34d3ec089b3e28f4f3221" datatype="html" approved="yes">
+        <source>Tival Crystal</source> <target state="translated">Tivalin kristalli</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">327</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fadc0cd1b11d83f9190211be9d2033855a767296" datatype="html" approved="yes">
+        <source>∞: Exhaust this card to roll 1 red power die. You recover ≥ equal to the ≥ rolled.</source> <target state="translated">∞: Kuluta tämä kortti ja heitä 1 punaista voima noppaa. Paranet ≥ sen verran kuin mitä heitit ≥.</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/card/all-cards/all-cards.component.ts</context>
+          <context context-type="linenumber">328</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bad7f9cf2f37196a784fcbf98145dff3cde25959" datatype="html" approved="yes">
+        <source>Character</source> <target state="translated">Hahmo</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5dadb2663f483497d27769e26d9b92f0c5a64053" datatype="html" approved="yes">
+        <source>Descent helper</source> <target state="translated">Descent apuri</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

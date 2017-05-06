@@ -1,0 +1,23 @@
+<app-nav-bar>
+  <li [routerLink]="['/']">
+    < <span i18n>Home</span>
+  </li>
+</app-nav-bar>
+<div class="item__categories">
+  <div [routerLink]="['./', worn.armor]"
+       class="item__category">
+    <span i18n>Armor</span>
+  </div>
+  <div [routerLink]="['./', worn.oneHand]"
+       class="item__category">
+    <span i18n>One Hand</span>
+  </div>
+  <div [routerLink]="['./', worn.twoHands]"
+       class="item__category">
+    <span i18n>Two Hand</span>
+  </div>
+  <div [routerLink]="['./', worn.other]"
+       class="item__category">
+    <span i18n>Other</span>
+  </div>
+</div>

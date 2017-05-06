@@ -1,0 +1,26 @@
+<app-nav-bar>
+  <li [routerLink]="['/card/items']">
+    < <span i18n>Items</span>
+  </li>
+</app-nav-bar>
+<div class="nav__header" [ngSwitch]="wornType">
+  <span *ngSwitchCase="wornTypes.armor" i18n>
+    Armor
+  </span>
+  <span *ngSwitchCase="wornTypes.oneHand" i18n>
+    One Hand
+  </span>
+  <span *ngSwitchCase="wornTypes.twoHands" i18n>
+    Two Hand
+  </span>
+  <span *ngSwitchCase="wornTypes.other" i18n>
+    Other
+  </span>
+</div>
+
+<div class="items">
+  <div class="item" *ngFor="let card of itemCards; let i = index">
+    <div class="item__header" (click)="toggleActive(i)">{{card}}</div>
+    <app-cards [card]="card" *ngIf="i === active"></app-cards>
+  </div>
+</div>

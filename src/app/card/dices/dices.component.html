@@ -1,0 +1,7 @@
+<div class="card__dices"
+     *ngIf="card && card.dices">
+  <h4 class="only-sr">Dices</h4>
+  <div
+    *ngFor="let color of card.dices"
+    class="dice__{{color}}"><span class="only-sr">{{color}}</span></div>
+</div>

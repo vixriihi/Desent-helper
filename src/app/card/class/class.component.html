@@ -1,0 +1,21 @@
+<app-nav-bar>
+  <li [routerLink]="['/card/classes']">
+    < <span i18n>Classes</span>
+  </li>
+</app-nav-bar>
+<div class="nav__header" [ngSwitch]="profession">
+  <span *ngSwitchCase="classes.disciple" i18n>
+    Disciple
+  </span>
+  <span *ngSwitchCase="classes.knight" i18n>
+    Knight
+  </span>
+</div>
+<div class="skills">
+  <div class="skill" *ngFor="let card of skillCards; let i = index">
+    <div class="skill__header" (click)="toggleActive(i)">{{card}}</div>
+    <app-cards [card]="card" *ngIf="i === active"></app-cards>
+  </div>
+</div>
+
+

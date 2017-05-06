@@ -1,0 +1,12 @@
+<app-nav-bar>
+  <li [routerLink]="['/']">
+    < <span i18n>Home</span>
+  </li>
+</app-nav-bar>
+<div class="classes">
+  <div [routerLink]="['./', class]"
+       class="class"
+       *ngFor="let class of classesService.getAllClasses() | async">
+    {{class}}
+  </div>
+</div>

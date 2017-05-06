@@ -1,0 +1,17 @@
+{
+  "name": "Descent helper",
+  "short_name": "Descent",
+  "icons": [
+    {
+      "src": "/assets/descent-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": 4
+    }
+  ],
+  "theme_color": "#2b354d",
+  "background_color": "#d7dde1",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "any"
+}

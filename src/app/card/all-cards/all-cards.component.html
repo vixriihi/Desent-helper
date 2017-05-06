@@ -1,0 +1,345 @@
+<div class="card">
+  <app-item-type [card]="cardData[card]"></app-item-type>
+  <app-item-cost [card]="cardData[card]"></app-item-cost>
+  <app-range-type [card]="cardData[card]"></app-range-type>
+  <app-xp-cost [card]="cardData[card]"></app-xp-cost>
+  <app-fatigue-cost [card]="cardData[card]"></app-fatigue-cost>
+  <app-dices [card]="cardData[card]"></app-dices>
+  <ng-container *ngTemplateOutlet="cardsText"></ng-container>
+</div>
+
+<ng-template #cardsText>
+  <div [ngSwitch]="card">
+    <!-- Disciple: Armor of Faith -->
+    <div *ngSwitchCase="cards.armorOfFaith">
+      <h1 i18n>Armor of Faith</h1>
+      <p  i18n>
+        Each time you use Prayer of Healing on a hero, that hero adds 1 additional brown die to his defense pool until the start of your next turn.<br>
+        Place a hero token belonging to that hero on this card as a reminder.
+      </p>
+    </div>
+    <!-- Disciple: Blessed Strike -->
+    <div *ngSwitchCase="cards.blessedStrike">
+      <h1 i18n>Blessed Strike</h1>
+      <p i18n>
+        ∞: Perform an attack with a Melee weapon.
+        If you deal at least 1 ≥ (after rolling defense dice),
+        you and 1 hero of your choice adjacent to you each recover 2 ≥.
+      </p>
+    </div>
+    <!-- Disciple: Cleansing Touch -->
+    <div *ngSwitchCase="cards.cleansingTouch">
+      <h1 i18n>Cleansing Touch</h1>
+      <p i18n>
+        Each time you use Prayer of Healing on a hero, that hero may also discard 1 of his Condition cards.
+      </p>
+    </div>
+    <!-- Disciple: Divine Fury -->
+    <div *ngSwitchCase="cards.divineFury">
+      <h1 i18n>Divine Fury</h1>
+      <p i18n>
+        Each time you use Prayer of Healing on a hero, that hero adds 1 additional yellow power die to his attack pool on his next attack this round.
+        Place a hero token belonging to that hero on this card as a reminder.
+      </p>
+    </div>
+    <!-- Disciple: Holy Power -->
+    <div *ngSwitchCase="cards.holyPower">
+      <h1 i18n>Holy Power</h1>
+      <p i18n>
+        Your Prayer of Healing may now affect 2 different heroes.
+        If you roll a ± on the red power die when using Prayer of Healing, both heroes recover 1 ∏.
+      </p>
+    </div>
+    <!-- Disciple: Prayer of Healing -->
+    <div *ngSwitchCase="cards.prayerOfHealing">
+      <h1 i18n>Prayer of Healing</h1>
+      <p i18n>
+        Exhaust this card during your turn and choose yourself or an adjacent hero. Roll 1 red power die. The chosen hero recovers ≥ equal to the ≥ rolled.
+      </p>
+    </div>
+    <!-- Disciple: Prayer of Peace -->
+    <div *ngSwitchCase="cards.prayerOfPeace">
+      <h1 i18n>Prayer of Peace</h1>
+      <p i18n>∞: Exhaust this card.<br>
+        While this card is exhausted, monsters cannot perform an attack while adjacent to you.
+      </p>
+    </div>
+    <!-- Disciple: Radiant Light -->
+    <div *ngSwitchCase="cards.radiantLight">
+      <h1 i18n>Radiant Light</h1>
+      <p i18n>∞: Roll 1 red power die.
+        Each hero in your line of sight (including yourself) recovers the amount of ≥ rolled.
+        Each monster in your line of sight suffers the amount of ≥ rolled.
+      </p>
+    </div>
+    <!-- Disciple: Time of Need -->
+    <div *ngSwitchCase="cards.timeOfNeed">
+      <h1 i18n>Time of Need</h1>
+      <p i18n>∞:
+        You receive 2 movement points and recover 2 ≥.
+      </p>
+    </div>
+    <!-- Knight: Advance -->
+    <div *ngSwitchCase="cards.advance">
+      <h1 i18n>Advance</h1>
+      <p i18n>
+        After defeating a monster with an attack using a Melee weapon,
+        exhaust this card to move up to you Speed and perform an additional attack.
+      </p>
+    </div>
+    <!-- Knight: Challenge -->
+    <div *ngSwitchCase="cards.challenge">
+      <h1 i18n>Challenge</h1>
+      <p i18n>
+        Exhaust this card to choose a monster in you line of sight and place your hero token on it.
+        While this card is exhausted, each attack performed by you or the monster,
+        when targeting each other, gains +1 ≥.
+      </p>
+    </div>
+    <!-- Knight: Defend -->
+    <div *ngSwitchCase="cards.defend">
+      <h1 i18n>Defend</h1>
+      <p i18n>
+        When a hero adjacent to you is targeted by an attack,
+        use this card to instead declare yourself as the target of the attack.
+        Range and line of sight are still measured to the targeted hero's space.
+      </p>
+    </div>
+    <!-- Knight: Defense Training -->
+    <div *ngSwitchCase="cards.defenseTraining">
+      <h1 i18n>Defense Training</h1>
+      <p i18n>
+        As long as you have a Shield equipped, add 1 additional brown die to your defense pool (even if this card is exhausted).
+        When you would exhaust your equipped Shield (such as to use the Shield's ability), you may exhaust this card instead.
+      </p>
+    </div>
+    <!-- Knight: Guard -->
+    <div *ngSwitchCase="cards.guard">
+      <h1 i18n>Guard</h1>
+      <p i18n>
+        When a monster moves into an empty space adjacent to you,
+        exhaust this card to interrupt that monster’s activation and perform an attack with a Melee weapon.
+        After this attack is resolved, if the monster was not defeated, it may continue its activation.
+      </p>
+    </div>
+    <!-- Knight: Inspiration -->
+    <div *ngSwitchCase="cards.inspiration">
+      <h1 i18n>Inspiration</h1>
+      <p i18n>
+        At the start of your turn.
+        if you are adjacent to at least one other hero,
+        you and each other hero adjacent to your recover 1 ∏.
+      </p>
+    </div>
+    <!-- Knight: Oath of Honor -->
+    <div *ngSwitchCase="cards.oathOfHonor">
+      <h1 i18n>Oath of Honor</h1>
+      <p i18n>
+        ∞: Choose another hero within 3 spaces of you who has a monster adjacent to him.
+        Place your hero figure in the closest empty space adjacent to the monster and perform an attack with a Melee weapon against that monster.
+      </p>
+    </div>
+    <!-- Knight: Shield Slam -->
+    <div *ngSwitchCase="cards.shieldSlam">
+      <h1 i18n>Shield Slam</h1>
+      <p i18n>
+        While you have a Shield equipped (even if exhausted), each of your attacks with a Melee weapon gain:<br>
+        ±: Choose a monster adjacent to you. That monster is Stunned.
+      </p>
+    </div>
+    <!-- Knight: Stalwart -->
+    <div *ngSwitchCase="cards.stalwart">
+      <h1 i18n>Stalwart</h1>
+      <p i18n>
+        You gain +2 Health.
+        When you are defeated, you may immediatly move up to your Speed and perform an attack with a Melee weapon.
+        After the attack is resolved, you are knocked out.
+      </p>
+    </div>
+    <!-- Items: Armor -->
+    <div *ngSwitchCase="cards.leatherArmor">
+      <h1 i18n>Leather Armor</h1>
+      <p i18n>
+        You gain +1 Health.
+      </p>
+    </div>
+    <div *ngSwitchCase="cards.chainmail">
+      <h1 i18n>Chainmail</h1>
+      <p i18n>You cannot equip Runes.</p>
+      <p i18n>Your Speed is reduced to 4 and cannot be increased above 4.</p>
+    </div>
+    <div *ngSwitchCase="cards.heavyCloak">
+      <h1 i18n>Heavy Cloak</h1>
+      <p i18n>
+        Exhaust this card after the dice are rolled to cancel 1 ± on an attack that targets you.
+      </p>
+    </div>
+    <!-- Items: One Hand -->
+    <div *ngSwitchCase="cards.lightHammer">
+      <h1 i18n>Light Hammer</h1>
+      <p i18n>±: +2 ≥</p>
+      <p i18n>±: Stun</p>
+    </div>
+    <div *ngSwitchCase="cards.sling">
+      <h1 i18n>Sling</h1>
+      <p i18n>±: +1 Range, +1 ≥</p>
+      <p i18n>±: Stun</p>
+    </div>
+    <div *ngSwitchCase="cards.ironShield">
+      <h1 i18n>Iron Shield</h1>
+      <p i18n>
+        Exhaust this card after rolling defense dice to either
+        reroll one die or add 1 Shield to the results.
+      </p>
+    </div>
+    <div *ngSwitchCase="cards.ironSpear">
+      <h1 i18n>Iron Spear</h1>
+      <p i18n>Reach</p>
+      <p i18n>±: +1 ≥</p>
+      <p i18n>±: Pierce 1</p>
+    </div>
+    <div *ngSwitchCase="cards.crossbow">
+      <h1 i18n>Crossbow</h1>
+      <p i18n>Pierce 1</p>
+      <p i18n>±: +2 ≥</p>
+      <p i18n>±: +2 ≥ and move the target 1 space</p>
+    </div>
+    <div *ngSwitchCase="cards.steelBroadsword">
+      <h1 i18n>Steel Broadsword</h1>
+      <p i18n>Once per attack roll, you may reroll 1 red power die.</p>
+      <p i18n>±: +1 ≥</p>
+    </div>
+    <!-- Items: Two Hand -->
+    <div *ngSwitchCase="cards.sunburst">
+      <h1 i18n>Sunburst</h1>
+      <p i18n>±: Stun</p>
+      <p i18n>±: +2 ≥</p>
+    </div>
+    <div *ngSwitchCase="cards.immolation">
+      <h1 i18n>Immolation</h1>
+      <p i18n>Pierce 1</p>
+      <p i18n>±: +1 ≥</p>
+      <p i18n>±: +1 Range</p>
+    </div>
+    <div *ngSwitchCase="cards.elmGreatbow">
+      <h1 i18n>Immolation</h1>
+      <p i18n>Adjacent figures do not block your line of sight.</p>
+      <p i18n>±: +2 ≥</p>
+      <p i18n>±: +2 Range</p>
+    </div>
+    <div *ngSwitchCase="cards.magicStaff">
+      <h1 i18n>Magic Staff</h1>
+      <p i18n>±: Deal 1 ≥ to another monster within 3 spaces of the target</p>
+      <p i18n>±: +1 Range</p>
+    </div>
+    <div *ngSwitchCase="cards.ironBattleaxe">
+      <h1 i18n>Iron Battleaxe</h1>
+      <p i18n>Pierce 1</p>
+      <p i18n>±: +2 ≥</p>
+      <p i18n>±: Pierce 1</p>
+    </div>
+    <!-- Items: Other -->
+    <div *ngSwitchCase="cards.scorpionHelm">
+      <h1 i18n>Scorpion Helm</h1>
+      <p i18n>Your Ranged attacks gain +1 Range.</p>
+      <p i18n>Limit 1 Helmet equipped at a time.</p>
+    </div>
+    <div *ngSwitchCase="cards.luckyCharm">
+      <h1 i18n>Lucky Charm</h1>
+      <p i18n>Exhaust this card to reroll an attribute test. You must keep the new results.</p>
+    </div>
+    <div *ngSwitchCase="cards.manaWeave">
+      <h1 i18n>Mana Weave</h1>
+      <p i18n>After rolling attack dice, exhaust this card to add 1 ± to the results.</p>
+    </div>
+    <div *ngSwitchCase="cards.ringOfPower">
+      <h1 i18n>Mana Weave</h1>
+      <p i18n>You gain +1 Stamina.</p>
+    </div>
+    <!-- Items: Act II -->
+    <div *ngSwitchCase="cards.demonhideLeather">
+      <h1 i18n>Demonhide Leather</h1>
+      <p i18n>When you perform 2 move actions on your turn, suffer 1 ∏ at the end of your turn.</p>
+    </div>
+    <div *ngSwitchCase="cards.dragontoothHammer">
+      <h1 i18n>Dragontooth Hammer</h1>
+      <p i18n>Pierce 1</p>
+      <p i18n>If your other hand is empty, your attacks gain +1 ≥.</p>
+      <p i18n>±: Pierce 2</p>
+    </div>
+    <div *ngSwitchCase="cards.dwarvenFirebomb">
+      <h1 i18n>Dwarven Firebomb</h1>
+      <p i18n>±: +1 Range, +1 ≥</p>
+      <p i18n>±: Blast</p>
+      <p i18n>±: Stun</p>
+    </div>
+    <div *ngSwitchCase="cards.elvenCloak">
+      <h1 i18n>Elven Cloak</h1>
+      <p i18n>Exhaust this card after rolling defense dice to replace the results with a number of ≤ equal to your µ</p>
+    </div>
+    <div *ngSwitchCase="cards.grindingAxe">
+      <h1 i18n>Grinding Axe</h1>
+      <p i18n>±: +1 ≥</p>
+      <p i18n>±±: +5 ≥</p>
+    </div>
+    <div *ngSwitchCase="cards.heavySteelShield">
+      <h1 i18n>Heavy Steel Shield</h1>
+      <p i18n>Exhaust this card after rolling defense dice to reroll 1 defence die and add 1 ≤ to the results.</p>
+    </div>
+    <div *ngSwitchCase="cards.iceStorm">
+      <h1 i18n>Ice Storm</h1>
+      <p i18n>±: Immobilize</p>
+      <p i18n>±: +2 ≥</p>
+    </div>
+    <div *ngSwitchCase="cards.ironBoundRing">
+      <h1 i18n>Iron-Bound Ring</h1>
+      <p i18n>You gain +2 Health.</p>
+      <p i18n>If you roll one or more blanks when rolling defence dice, add 1 ≤ to your results.</p>
+    </div>
+    <div *ngSwitchCase="cards.latariLongbow">
+      <h1 i18n>Latari Longbow</h1>
+      <p i18n>Pierce 1</p>
+      <p i18n>±: +2 Range</p>
+      <p i18n>±: +2 ≥</p>
+    </div>
+    <div *ngSwitchCase="cards.lightningStrike">
+      <h1 i18n>Latari Longbow</h1>
+      <p i18n>±: Blast</p>
+      <p i18n>±: +2 ≥</p>
+      <p i18n>±: +2 ≥</p>
+    </div>
+    <div *ngSwitchCase="cards.maceOfKellos">
+      <h1 i18n>Mace of Kellos</h1>
+      <p i18n>±: Each monster adjacent to you suffers 1 ≥</p>
+      <p i18n>±: Recover +1 ≥</p>
+    </div>
+    <div *ngSwitchCase="cards.platemail">
+      <h1 i18n>Platemail</h1>
+      <p i18n>You cannot equip Runes.</p>
+      <p i18n>Your Speed is reduced to 3 and cannot be increased above 3.</p>
+    </div>
+    <div *ngSwitchCase="cards.steelGreatsword">
+      <h1 i18n>Steel Greatsword</h1>
+      <p i18n>Once per attack, you may reroll 1 power die.</p>
+      <p i18n>±: Pierce 2</p>
+      <p i18n>±: +1 ≥</p>
+    </div>
+    <div *ngSwitchCase="cards.tivalCrystal">
+      <h1 i18n>Tival Crystal</h1>
+      <p i18n>∞: Exhaust this card to roll 1 red power die. You recover ≥ equal to the ≥ rolled.</p>
+    </div>
+  </div>
+</ng-template>
+<!--
+speed: ¥
+action: ∞
+fatigue: ∏
+shield: ≤
+surge: ±
+heart: ≥
+power: ∂
+book: ∑
+exp: π
+Awareness: µ
+-->
+
